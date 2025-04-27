@@ -5,30 +5,11 @@ Fue desarrollado como parte de una prueba técnica para demostrar el uso de RAG 
 📂 Estructura del proyecto
 graphql
 Copiar
-Editar![image](https://github.com/user-attachments/assets/a1f69dae-ef59-4637-be97-aaf34fabc136)
+Editar!
 
-asistente_bancario/
-│
-├── main.py                # Archivo principal para ejecutar el asistente
-│
-├── core/
-│   ├── agent.py            # Orquestador: decide si usar RAG o una herramienta
-│   ├── rag.py              # Motor RAG para buscar en FAQs y otros datos
-│
-├── tools/
-│   ├── loan_calculator.py  # Calculadora de cuota de préstamos
-│   ├── transfer_simulator.py # Simulador de transferencias bancarias
-│
-├── ui/
-│   └── console_ui.py       # Interfaz de usuario en consola
-│
-├── data/
-│   ├── faqs.json           # Preguntas frecuentes
-│   ├── accounts.json       # Datos de cuentas bancarias
-│   ├── loans.json          # Datos de tipos de préstamos
-│   ├── examples.json       # Ejemplos de preguntas sugeridas
-│
-└── README.md               # Este archivo
+
+[image](https://github.com/user-attachments/assets/a1f69dae-ef59-4637-be97-aaf34fabc136)
+
 🚀 ¿Cómo ejecutar el proyecto?
 Clona el repositorio:
 
