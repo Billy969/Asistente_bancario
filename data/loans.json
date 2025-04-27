@@ -1,0 +1,5 @@
+[
+    { "loan_type": "Hipotecario", "interest_rate": 0.08 },
+    { "loan_type": "Automotriz", "interest_rate": 0.10 },
+    { "loan_type": "Personal", "interest_rate": 0.12 }
+   ]

@@ -1,0 +1,4 @@
+[
+    { "account_number": "12345", "account_type": "Ahorros", "balance": 1000.00 },
+    { "account_number": "67890", "account_type": "Corriente", "balance": 5000.00 }
+   ]

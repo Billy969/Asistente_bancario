@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Asistente Banco Guayaquil</title>
+ <style>
+  /* Estilos del Banco de Guayaquil (ejemplo) */
+  body { font-family: sans-serif; background-color: #f0f0f0; }
+  .chat-container { width: 500px; margin: 20px auto; background-color: #fff; border: 1px solid #ddd; border-radius: 5px; padding: 10px; }
+  .user-message { text-align: right; color: #004A97; /* Azul del Banco Guayaquil */ }
+  .agent-message { text-align: left; color: #000; }
+  .input-container { display: flex; margin-top: 10px; }
+  #user-input { flex-grow: 1; padding: 5px; }
+  button { background-color: #FFC220; /* Amarillo del Banco Guayaquil */ border: none; padding: 5px 10px; cursor: pointer; }
+ </style>
+</head>
+<body>
+ <div class="chat-container">
+  <div id="chat-history"></div>
+  <div class="input-container">
+   <input type="text" id="user-input" placeholder="Escribe tu consulta...">
+   <button onclick="sendMessage()">Enviar</button>
+  </div>
+ </div>
+
+ <script>
+  async function sendMessage() {
+   const input = document.getElementById('user-input');
+   const message = input.value;
+   if (!message) return;
+
+   const chatHistory = document.getElementById('chat-history');
+   chatHistory.innerHTML += `<p class="user-message">Usuario: ${message}</p>`;
+   input.value = '';
+
+   const response = await fetch('/chat', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+    body: `query=${encodeURIComponent(message)}`
+   });
+   const data = await response.json();
+   chatHistory.innerHTML += `<p class="agent-message">Agente: ${data.response}</p>`;
+  }
+ </script>
+</body>
+</html>

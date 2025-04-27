@@ -1,0 +1,30 @@
+[
+    {
+     "question": "¿Cuáles son los requisitos para abrir una cuenta de ahorros?",
+     "answer": "En línea: El único requisito es tener cédula de identidad ecuatoriana vigente y ser mayor de edad. \nNo necesitas realizar un depósito inicial. \nDescarga la App Banco Guayaquil y empieza el proceso.\nAgencia: Si prefieres abrir tu cuenta de manera presencial,\n puedes acercarte a cualquiera de nuestras oficinas en el área de servicio al cliente. Solo debes presentar tu cédula de identidad. "
+    },
+    {
+     "question": "¿Cómo puedo abrir una cuenta corriente?",
+     "answer": "En línea:\nEl único requisito es tener cédula de identidad ecuatoriana actualizada y ser mayor de edad. No necesitas realizar un depósito inicial. Para abrir tu cuenta debes completar los datos solicitados aquí: Abrir cuenta corriente \nAgencia\nSi prefieres abrir tu cuenta de manera presencial, puedes acercarte a cualquiera de nuestras oficinas en el área de servicio al cliente. Solo debes presentar tu cédula de identidad. "
+    },
+    {
+     "question": "¿Cuál es el horario de atención de la agencia principal?",
+     "answer": "Nuestro horario de atención es de lunes a viernes de 8:00 a 16:00\n en Oficinas y, en Centros Comerciales, según sus horarios asignados."
+    },
+    {
+     "question": "¿Qué tipos de tarjetas de crédito ofrecen?",
+     "answer": "Banco Guayaquil está afiliado a las más grandes franquicias de tarjetas de crédito, como son: American Express, Mastercard y Visa."
+    },
+    {
+        "question": "¿Cómo solicito una Tarjeta de Crédito?",
+        "answer": "Para solicitar una Tarjeta de Crédito en Banco Guayaquil debes cumplir con los siguientes requisitos:\nMínimo 21 años de edad\nIngresos iguales o superiores a $700\nEstabilidad laboral\nDependientes: 1 Año\nIndependientes: 3 Años de Activo el RUC\nEmpleados Sector Público: 2 Años\nSi cumples estos requisitos acércate a una de nuestras agencias para que nuestros asesores ingresen tu solicitud. Para tu comodidad puedes agendar tu turno en línea."
+       },
+    {
+     "question": "¿Cómo puedo realizar una transferencia?",
+     "answer": "Puede realizar transferencias a través de nuestra banca en línea o en cualquiera de nuestras agencias."
+    },
+    {
+        "question": "¿Cómo puedo tener una Tarjeta de Débito?",
+        "answer": "Para solicitar una Tarjeta de Débito, debes tener una Cuenta de Ahorros o Corriente. Puedes abrir una en línea, sin depósito inicial, e imprimir tu Mastercard Debit en tu agencia más cercana."
+       }
+   ]
