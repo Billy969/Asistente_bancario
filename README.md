@@ -3,9 +3,6 @@ Este proyecto es un agente inteligente que responde preguntas frecuentes, calcul
 Fue desarrollado como parte de una prueba técnica para demostrar el uso de RAG (Retrieval Augmented Generation) combinado con herramientas externas.
 
 📂 Estructura del proyecto
-graphql
-Copiar
-Editar!
 
 
 [image](https://github.com/user-attachments/assets/a1f69dae-ef59-4637-be97-aaf34fabc136)
