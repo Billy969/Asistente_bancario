@@ -1,4 +1,4 @@
-Asistente Virtual del Banco de Guayaquil
+                               Asistente Virtual del Banco de Guayaquil
 Este proyecto es un agente inteligente que responde preguntas frecuentes, calcula cuotas de préstamos y simula transferencias bancarias.
 Fue desarrollado como parte de una prueba técnica para demostrar el uso de RAG (Retrieval Augmented Generation) combinado con herramientas externas.
 
