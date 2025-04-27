@@ -1,6 +1,5 @@
                                Asistente Virtual del Banco de Guayaquil
 Este proyecto es un agente inteligente que responde preguntas frecuentes, calcula cuotas de préstamos y simula transferencias bancarias.
-Fue desarrollado como parte de una prueba técnica para demostrar el uso de RAG (Retrieval Augmented Generation) combinado con herramientas externas.
 
 📂 Estructura del proyecto
 
@@ -28,33 +27,33 @@ Copiar
 Editar
 python main.py
 💡 Funcionalidades principales
-Buscar respuestas a preguntas frecuentes mediante un motor RAG basado en TF-IDF.
+-Buscar respuestas a preguntas frecuentes mediante un motor RAG basado en TF-IDF.
 
-Calcular cuotas de préstamos de tipo Hipotecario, Automotriz o Personal.
+-Calcular cuotas de préstamos de tipo Hipotecario, Automotriz o Personal.
 
-Simular transferencias entre cuentas bancarias.
+-Simular transferencias entre cuentas bancarias.
 
-Saludo personalizado al iniciar sesión.
+-Saludo personalizado al iniciar sesión.
 
-Despedida amigable al salir.
+-Despedida amigable al salir.
 
-Sugerencias de preguntas automáticas usando ejemplos de un archivo examples.json.
+-Sugerencias de preguntas automáticas usando ejemplos de un archivo examples.json.
 
 🧠 Tecnologías usadas
-Python 3
+-Python 3
 
-scikit-learn (TF-IDF Vectorizer y Cosine Similarity)
+-scikit-learn (TF-IDF Vectorizer y Cosine Similarity)
 
-JSON para manejo de bases de datos internas (FAQs, cuentas y préstamos)
+-JSON para manejo de bases de datos internas (FAQs, cuentas y préstamos)
 
 📈 Mejoras a futuro
-Incorporar embeddings avanzados (por ejemplo OpenAI o Sentence Transformers) para mejorar el RAG.
+-Incorporar embeddings avanzados (por ejemplo OpenAI o Sentence Transformers) para mejorar el RAG.
 
-Conectar a APIs reales de bancos para operaciones reales.
+-Conectar a APIs reales de bancos para operaciones reales.
 
-Desarrollar una interfaz web (usando Flask o FastAPI).
+-Desarrollar una interfaz web (usando Flask o FastAPI).
 
-Automatizar la actualización de bases de datos.
+-Automatizar la actualización de bases de datos.
 
 🤝 Autor
 Juan Jose Acosta Burbano
