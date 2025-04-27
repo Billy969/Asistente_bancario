@@ -5,7 +5,8 @@ Fue desarrollado como parte de una prueba técnica para demostrar el uso de RAG 
 📂 Estructura del proyecto
 graphql
 Copiar
-Editar
+Editar![image](https://github.com/user-attachments/assets/a1f69dae-ef59-4637-be97-aaf34fabc136)
+
 asistente_bancario/
 │
 ├── main.py                # Archivo principal para ejecutar el asistente
